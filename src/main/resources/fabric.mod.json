@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "h_infinity",
+  "version": "0.0.1",
+
+  "name": "H_infinity",
+  "description": "A Mod Based on Automatic Control Theory",
+  "authors": ["LG_frir"],
+  "contributors": ["SmerryBeta"],
+  "contact": {},
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/lgfrir/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.LGfrir.H_infinity.client.H_infinity"
+    ],
+    "main": ["me.LGfrir.H_infinity.H_infinity"]
+  },
+
+  "mixins": [
+    "h_infinity.mixins.json"
+    ,{
+      "config": "h_infinity.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.1",
+    "fabric": "*"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "providers": [
+    {
+      "type": "ttf",
+      "file": "lgfrir:jet-eb.ttf",
+      "language": "en_us",
+      "oversample": 2.0,
+      "size": 10.0,
+      "shift": [0,0]
+    }
+  ]
+}
